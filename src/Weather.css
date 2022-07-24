@@ -1,7 +1,7 @@
 body {
-  color: blue;
+  color: black;
 }
 
 .Weather {
-  font-size: 50px;
+  border: 1px solid #dadde1;
 }
