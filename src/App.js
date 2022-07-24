@@ -15,6 +15,16 @@ export default function App() {
         >
           {" "}
           Github
+        </a>{" "}
+        <br></br>
+        Portfolio found
+        <a
+          href="https://strigenz-portfolio.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          here
         </a>
       </footer>
     </div>
