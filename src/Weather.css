@@ -18,6 +18,7 @@ body {
 
 .Weather h1 {
   color: #22313f;
+  opacity: 0.86;
   display: block;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,4 +68,16 @@ body {
   position: relative;
   top: -32px;
   margin-left: 5px;
+}
+
+.Weather .HumidityWind {
+  color: #5a5c5c;
+}
+
+.WeatherTemperature .temperature {
+  color: #565557;
+}
+
+.WeatherTemperature {
+  color: #565557;
 }
