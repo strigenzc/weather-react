@@ -10,6 +10,7 @@ export default function FormattedDate(props) {
     "Friday",
     "Saturday",
   ];
+  //Creating this otherwise day will just show up as 0,1,2,3 etc
 
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
