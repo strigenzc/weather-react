@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="https://github.com/strigenzc/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="nooperner noreferrer"
           >
             {" "}
             Github
@@ -23,7 +23,7 @@ export default function App() {
           <a
             href="https://strigenz-portfolio.netlify.app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             here
           </a>
