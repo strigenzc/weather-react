@@ -81,3 +81,7 @@ body {
 .WeatherTemperature {
   color: #565557;
 }
+
+.Weather .cityInfo {
+  color: #5a5c5c;
+}
