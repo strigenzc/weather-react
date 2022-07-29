@@ -91,7 +91,7 @@ body {
     max-width: 350px;
   }
 
-  .WeatherForecastDay .ForecastInfo {
+  .WeatherForecast .ForecastInfo {
     display: none;
   }
 }
