@@ -1,34 +1,58 @@
 body {
-  color: 33, 37, 41;
-  max-height: 2400px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edddd4;
 }
 
 .Weather {
-  border: 1px solid #dadde1;
-  border-radius: 4px;
+  border: 7px groove rgba(94, 114, 235, 0.7);
+  border-radius: 20px;
   max-width: 600px;
   margin: 30px auto;
   padding: 16px;
-  background: linear-gradient(
-    68.6deg,
-    rgb(252, 165, 241) 1.8%,
-    rgb(181, 255, 255) 100.5%
-  );
+  background: #edddd4;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .Weather h1 {
   color: #22313f;
+  font-family: "Pacifico", cursive;
+  font-size: 10vmin;
   opacity: 0.86;
   display: block;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 29px;
+  line-height: 55px;
   font-size: 50px;
   font-weight: 200;
   text-align: left;
   width: 326px;
   padding: 0px 0px 20px;
-  margin: 15px 0px 0px;
+  margin: 25px 0px 5px 0px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(94, 114, 235, 1) 0%,
+    rgba(255, 145, 144, 1) 56%,
+    rgba(254, 193, 149, 1) 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  50% {
+    background-image: linear-gradient(
+      262deg,
+      rgba(94, 114, 235, 1) 0%,
+      rgba(255, 145, 144, 1) 56%,
+      rgba(254, 193, 149, 1) 100%
+    );
+  }
 }
 
 .Weather li {
